@@ -9,7 +9,7 @@
 </template>
 
 <style>
-* { 
+* {
   margin: 0;
 }
 
