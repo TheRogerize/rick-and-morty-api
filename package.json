@@ -7,7 +7,7 @@
     "build": "vue-cli-service build",
     "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint",
-    "start": "node server.js"
+    "start": "vue-cli-service serve"
   },
   "dependencies": {
     "axios": "^0.21.1",
@@ -51,17 +51,15 @@
       "parser": "babel-eslint"
     },
     "rules": {},
-    "overrides": [
-      {
-        "files": [
-          "**/__tests__/*.{j,t}s?(x)",
-          "**/tests/unit/**/*.spec.{j,t}s?(x)"
-        ],
-        "env": {
-          "jest": true
-        }
+    "overrides": [{
+      "files": [
+        "**/__tests__/*.{j,t}s?(x)",
+        "**/tests/unit/**/*.spec.{j,t}s?(x)"
+      ],
+      "env": {
+        "jest": true
       }
-    ]
+    }]
   },
   "browserslist": [
     "> 1%",
