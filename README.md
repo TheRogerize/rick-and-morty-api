@@ -1,4 +1,8 @@
-# rickandmorty
+# Rick and Morty Vue.js App
+A simple Vue.js app for listing all the characters from the Rick and Morty TV Shows and their details.
+Made with Vue.js and the Buefy UI Library. The API consumption was made using Axios.
+
+### [DEMO](https://royandmorty.herokuapp.com/)
 
 ## Project setup
 ```
